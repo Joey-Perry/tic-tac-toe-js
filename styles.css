@@ -1,0 +1,36 @@
+h1 {
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    text-align: center;
+}
+
+div {
+    background-color: lightcyan;
+    padding: 50px;
+    border: 2px solid black;
+    font-size: 50px;
+}
+
+.grid-container {
+    display: grid;
+    padding: 0;
+    margin: 10px;
+}
+
+.grid-container-formatting {
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+}
+
+.new-game {
+    visibility: visible;
+}
+
+#game-result {
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+    font-weight: bolder;
+    visibility: hidden;
+    margin: 10px;
+}
